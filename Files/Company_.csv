@@ -1,0 +1,237 @@
+,company_id,Company,Followers,No_of_Employees ,Industry_copy,Industry
+0,cp_1,Fifth Column,467 followers,2-10 employees,Architecture and Planning 2-10 employees 7 on LinkedIn,Architecture and Planning 
+1,cp_2,RADIANT,"5,341 followers",51-200 employees,Architecture and Planning 51-200 employees 180 on LinkedIn,Architecture and Planning 
+2,cp_3,Jio,"1,082,875 followers","10,001+ employees","Telecommunications 10,001+ employees 61,946 on LinkedIn",Telecommunications 
+3,cp_4,Hyqoo,"222,357 followers",51-200 employees,IT Services and IT Consulting 51-200 employees 131 on LinkedIn,IT Services and IT Consulting 
+4,cp_5,Dr. Reddy's Laboratories,"1,091,566 followers","10,001+ employees","Pharmaceutical Manufacturing 10,001+ employees 25,512 on LinkedIn",Pharmaceutical Manufacturing 
+5,cp_6,DMart - Avenue Supermarts Ltd,"184,982 followers","5,001-10,000 employees","Retail 5,001-10,000 employees 11,574 on LinkedIn",Retail 
+6,cp_7,Ipca Laboratories Limited,"292,256 followers","10,001+ employees","Pharmaceutical Manufacturing 10,001+ employees 10,993 on LinkedIn",Pharmaceutical Manufacturing 
+7,cp_8,Birlasoft,"451,170 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 14,070 on LinkedIn",IT Services and IT Consulting 
+8,cp_9,Nagarro,"1,058,381 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 20,499 on LinkedIn",IT Services and IT Consulting 
+9,cp_10,FNP,"81,602 followers","501-1,000 employees","Retail 501-1,000 employees 1,199 on LinkedIn",Retail 
+10,cp_11,NationsBenefits India,"9,166 followers",201-500 employees,IT Services and IT Consulting 201-500 employees 171 on LinkedIn,IT Services and IT Consulting 
+11,cp_12,BlackRock,"451,170 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 14,070 on LinkedIn",IT Services and IT Consulting 
+12,cp_13,Delta Air Lines,"451,170 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 14,070 on LinkedIn",IT Services and IT Consulting 
+13,cp_14,Infosys,"1,082,876 followers","10,001+ employees","Telecommunications 10,001+ employees 61,946 on LinkedIn",Telecommunications 
+14,cp_15,IndusInd Bank,"1,794,469 followers","10,001+ employees","Financial Services 10,001+ employees 25,441 on LinkedIn",Financial Services 
+15,cp_16,Bureau Veritas Group,"1,288,239 followers","10,001+ employees","Airlines and Aviation 10,001+ employees 72,306 on LinkedIn",Airlines and Aviation 
+16,cp_17,Qatar Airways,"8,561,039 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 320,829 on LinkedIn",IT Services and IT Consulting 
+17,cp_18,Marsh McLennan,"1,240,722 followers","10,001+ employees","Banking 10,001+ employees 45,549 on LinkedIn",Banking 
+18,cp_19,Infosys BPM,"1,077,246 followers","10,001+ employees","Environmental Services 10,001+ employees 49,030 on LinkedIn",Environmental Services 
+19,cp_20,LTIMindtree,"2,349,979 followers","10,001+ employees","Airlines and Aviation 10,001+ employees 37,982 on LinkedIn",Airlines and Aviation 
+20,cp_21,NAB,"563,777 followers","10,001+ employees","Financial Services 10,001+ employees 69,402 on LinkedIn",Financial Services 
+21,cp_22,Infogain,"1,302,322 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 36,495 on LinkedIn",IT Services and IT Consulting 
+22,cp_23,Tata Consultancy Services,"3,754,452 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 101,571 on LinkedIn",IT Services and IT Consulting 
+23,cp_24,Asian Paints,"8,561,044 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 320,829 on LinkedIn",IT Services and IT Consulting 
+24,cp_25,Sony India Software Centre,"439,212 followers","10,001+ employees","Banking 10,001+ employees 35,268 on LinkedIn",Banking 
+25,cp_26,Rakuten India,"439,212 followers","10,001+ employees","Banking 10,001+ employees 35,268 on LinkedIn",Banking 
+26,cp_27,EaseMyTrip.com,"563,777 followers","10,001+ employees","Financial Services 10,001+ employees 69,402 on LinkedIn",Financial Services 
+27,cp_28,Hitachi Astemo,"323,710 followers","5,001-10,000 employees","IT Services and IT Consulting 5,001-10,000 employees 5,682 on LinkedIn",IT Services and IT Consulting 
+28,cp_29,Grant Thornton Bharat LLP,"14,684,572 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 594,255 on LinkedIn",IT Services and IT Consulting 
+29,cp_30,CARS24,"489,972 followers","10,001+ employees","Manufacturing 10,001+ employees 19,950 on LinkedIn",Manufacturing 
+30,cp_31,Gameskraft,"1,794,477 followers","10,001+ employees","Financial Services 10,001+ employees 25,441 on LinkedIn",Financial Services 
+31,cp_32,HDFC securities,"451,173 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 14,070 on LinkedIn",IT Services and IT Consulting 
+32,cp_33,Pidilite Industries Limited,"45,322 followers","1,001-5,000 employees","IT Services and IT Consulting 1,001-5,000 employees 1,983 on LinkedIn",IT Services and IT Consulting 
+33,cp_34,PcsInfinity Pvt. Ltd.,"242,424 followers","1,001-5,000 employees","Technology, Information and Internet 1,001-5,000 employees 1,333 on LinkedIn","Technology, Information and Internet "
+34,cp_35,Tata Communications Transformation Services (TCTS),"114,870 followers","501-1,000 employees","Travel Arrangements 501-1,000 employees 954 on LinkedIn",Travel Arrangements 
+35,cp_36,Happiest Minds Technologies,"74,728 followers","10,001+ employees","Motor Vehicle Manufacturing 10,001+ employees 7,286 on LinkedIn",Motor Vehicle Manufacturing 
+36,cp_37,BT Group,"398,367 followers","5,001-10,000 employees","Accounting 5,001-10,000 employees 6,390 on LinkedIn",Accounting 
+37,cp_38,HTC Global Services,"322,181 followers","5,001-10,000 employees","Technology, Information and Internet 5,001-10,000 employees 8,051 on LinkedIn","Technology, Information and Internet "
+38,cp_39,Panamax Infotech,"63,757 followers","501-1,000 employees","Computer Games 501-1,000 employees 652 on LinkedIn",Computer Games 
+39,cp_40,Datamatics,"91,401 followers","1,001-5,000 employees","Financial Services 1,001-5,000 employees 4,055 on LinkedIn",Financial Services 
+40,cp_41,KPIT,"548,324 followers","1,001-5,000 employees","Manufacturing 1,001-5,000 employees 8,612 on LinkedIn",Manufacturing 
+41,cp_42,Iron Mountain,"14,684,589 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 594,255 on LinkedIn",IT Services and IT Consulting 
+42,cp_43,Insight Global,"19,794 followers",51-200 employees,Software Development 51-200 employees 40 on LinkedIn,Software Development 
+43,cp_44,WNS,"111,617 followers","5,001-10,000 employees","Telecommunications 5,001-10,000 employees 4,459 on LinkedIn",Telecommunications 
+44,cp_45,Careernet,"184,259 followers","5,001-10,000 employees","Information Technology & Services 5,001-10,000 employees 5,169 on LinkedIn",Information Technology & Services 
+45,cp_46,iLink Digital,"687,498 followers","10,001+ employees","Telecommunications 10,001+ employees 80,065 on LinkedIn",Telecommunications 
+46,cp_47,Wipro,"872,919 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 11,609 on LinkedIn",IT Services and IT Consulting 
+47,cp_48,Morgan Stanley,"563,780 followers","10,001+ employees","Financial Services 10,001+ employees 69,402 on LinkedIn",Financial Services 
+48,cp_49,PUMA Group,"61,157 followers",201-500 employees,IT Services and IT Consulting 201-500 employees 318 on LinkedIn,IT Services and IT Consulting 
+49,cp_50,Alp Consulting Ltd.,"563,781 followers","10,001+ employees","Financial Services 10,001+ employees 69,402 on LinkedIn",Financial Services 
+50,cp_51,Oracle,"214,196 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 7,438 on LinkedIn",IT Services and IT Consulting 
+51,cp_52,Truemeds India,"479,824 followers","5,001-10,000 employees","Software Development 5,001-10,000 employees 14,713 on LinkedIn",Software Development 
+52,cp_53,Atos,"570,569 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 21,677 on LinkedIn",IT Services and IT Consulting 
+53,cp_54,Mastek,"14,684,607 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 594,255 on LinkedIn",IT Services and IT Consulting 
+54,cp_55,Genpact,"2,335,822 followers","1,001-5,000 employees","Staffing and Recruiting 1,001-5,000 employees 14,094 on LinkedIn",Staffing and Recruiting 
+55,cp_56,HARMAN International,"1,004,143 followers","10,001+ employees","Outsourcing and Offshoring Consulting 10,001+ employees 42,278 on LinkedIn",Outsourcing and Offshoring Consulting 
+56,cp_57,EarnYoung,"3,754,464 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 101,571 on LinkedIn",IT Services and IT Consulting 
+57,cp_58,Deloitte,"155,193 followers","1,001-5,000 employees","Staffing and Recruiting 1,001-5,000 employees 2,747 on LinkedIn",Staffing and Recruiting 
+58,cp_59,Policybazaar.com,"28,784 followers","1,001-5,000 employees","IT Services and IT Consulting 1,001-5,000 employees 1,379 on LinkedIn",IT Services and IT Consulting 
+59,cp_60,Tata Elxsi,"8,621,577 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 243,896 on LinkedIn",IT Services and IT Consulting 
+60,cp_61,Saint-Gobain Research India,"2,981,446 followers","10,001+ employees","Financial Services 10,001+ employees 88,579 on LinkedIn",Financial Services 
+61,cp_62,Omnicom Media Group India,"1,230,840 followers","10,001+ employees","Retail 10,001+ employees 17,197 on LinkedIn",Retail 
+62,cp_63,"Georgia IT, Inc.","254,367 followers","1,001-5,000 employees","Staffing and Recruiting 1,001-5,000 employees 1,066 on LinkedIn",Staffing and Recruiting 
+63,cp_64,Hexaware Technologies,"9,432,951 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 191,777 on LinkedIn",IT Services and IT Consulting 
+64,cp_65,Allianz Partners,"50,608 followers",201-500 employees,Pharmaceutical Manufacturing 201-500 employees 429 on LinkedIn,Pharmaceutical Manufacturing 
+65,cp_66,NTT Ltd.,"2,040,463 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 86,705 on LinkedIn",IT Services and IT Consulting 
+66,cp_67,Redrob by McKinley Rice,"202,496 followers","5,001-10,000 employees","IT Services and IT Consulting 5,001-10,000 employees 6,533 on LinkedIn",IT Services and IT Consulting 
+67,cp_68,Hitachi Energy,"3,766,649 followers","10,001+ employees","Business Consulting and Services 10,001+ employees 147,917 on LinkedIn",Business Consulting and Services 
+68,cp_69,Reliance Industries Limited,"478,879 followers","10,001+ employees","Computers and Electronics Manufacturing 10,001+ employees 26,456 on LinkedIn",Computers and Electronics Manufacturing 
+69,cp_70,Roku,"3,754,468 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 101,571 on LinkedIn",IT Services and IT Consulting 
+70,cp_71,Kotak Mutual Fund,"37,548 followers",2-10 employees,Staffing and Recruiting 2-10 employees 11 on LinkedIn,Staffing and Recruiting 
+71,cp_72,BluSmart,"14,990,546 followers","10,001+ employees","Business Consulting and Services 10,001+ employees 441,965 on LinkedIn",Business Consulting and Services 
+72,cp_73,Quess IT Staffing,"202,567 followers","1,001-5,000 employees","Insurance 1,001-5,000 employees 8,469 on LinkedIn",Insurance 
+73,cp_74,S&P Global,"14,684,620 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 594,255 on LinkedIn",IT Services and IT Consulting 
+74,cp_75,Epsilon India,"442,858 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 15,659 on LinkedIn",IT Services and IT Consulting 
+75,cp_76,HARMAN India,"1,240,725 followers","10,001+ employees","Banking 10,001+ employees 45,549 on LinkedIn",Banking 
+76,cp_77,Aspire Higher HR Solutions,"14,684,620 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 594,255 on LinkedIn",IT Services and IT Consulting 
+77,cp_78,Invest India,"14,684,622 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 594,255 on LinkedIn",IT Services and IT Consulting 
+78,cp_79,dentsu,"74,343 followers",51-200 employees,Research Services 51-200 employees 332 on LinkedIn,Research Services 
+79,cp_80,Google,"8,561,083 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 320,829 on LinkedIn",IT Services and IT Consulting 
+80,cp_81,Cognizant,"57,637 followers",201-500 employees,Advertising Services 201-500 employees 203 on LinkedIn,Advertising Services 
+81,cp_82,iEnergizer,"44,340 followers",51-200 employees,IT Services and IT Consulting 51-200 employees 88 on LinkedIn,IT Services and IT Consulting 
+82,cp_83,Inteliwaves,"1,280,286 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 27,749 on LinkedIn",IT Services and IT Consulting 
+83,cp_84,Virtusa,"14,684,626 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 594,255 on LinkedIn",IT Services and IT Consulting 
+84,cp_85,TÜV SÜD,"1,302,328 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 36,495 on LinkedIn",IT Services and IT Consulting 
+85,cp_86,Arm,"185,511 followers","10,001+ employees","Insurance 10,001+ employees 10,687 on LinkedIn",Insurance 
+86,cp_87,PW (PhysicsWallah),"1,794,490 followers","10,001+ employees","Financial Services 10,001+ employees 25,441 on LinkedIn",Financial Services 
+87,cp_88,Citi,"589,193 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 18,150 on LinkedIn",IT Services and IT Consulting 
+88,cp_89,Technip Energies,"451,180 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 14,070 on LinkedIn",IT Services and IT Consulting 
+89,cp_90,Orange Business,"101,131 followers",51-200 employees,Software Development 51-200 employees 121 on LinkedIn,Software Development 
+90,cp_91,Capgemini Engineering,"3,754,477 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 101,571 on LinkedIn",IT Services and IT Consulting 
+91,cp_92,UNIVO Education,"877,234 followers","10,001+ employees","Electric Power Transmission, Control, and Distribution 10,001+ employees 23,542 on LinkedIn","Electric Power Transmission, Control, and Distribution "
+92,cp_93,ANZ,"451,180 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 14,070 on LinkedIn",IT Services and IT Consulting 
+93,cp_94,Regalix,"3,754,477 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 101,571 on LinkedIn",IT Services and IT Consulting 
+94,cp_95,Navis,"3,846,812 followers","10,001+ employees","Oil and Gas 10,001+ employees 149,538 on LinkedIn",Oil and Gas 
+95,cp_96,Lowe's India,"245,414 followers","1,001-5,000 employees","Software Development 1,001-5,000 employees 3,732 on LinkedIn",Software Development 
+96,cp_97,HT Digital Streams,"3,754,477 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 101,571 on LinkedIn",IT Services and IT Consulting 
+97,cp_98,airtel,"52,942 followers",201-500 employees,Financial Services 201-500 employees 673 on LinkedIn,Financial Services 
+98,cp_99,Saint-Gobain Technical Insulation,"176,468 followers",51-200 employees,"Technology, Information and Media 51-200 employees 791 on LinkedIn","Technology, Information and Media "
+99,cp_100,Purplle.com,"14,684,638 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 594,255 on LinkedIn",IT Services and IT Consulting 
+100,cp_101,H&M,"438,884 followers","10,001+ employees","Staffing and Recruiting 10,001+ employees 1,231 on LinkedIn",Staffing and Recruiting 
+101,cp_102,Recmatrix Consulting,"3,766,663 followers","10,001+ employees","Business Consulting and Services 10,001+ employees 147,917 on LinkedIn",Business Consulting and Services 
+102,cp_103,KPMG India,"563,789 followers","10,001+ employees","Financial Services 10,001+ employees 69,402 on LinkedIn",Financial Services 
+103,cp_104,T&N Business Services,"322,183 followers","5,001-10,000 employees","Technology, Information and Internet 5,001-10,000 employees 8,051 on LinkedIn","Technology, Information and Internet "
+104,cp_105,Gleren Technologies,"513,260 followers","10,001+ employees","Financial Services 10,001+ employees 38,266 on LinkedIn",Financial Services 
+105,cp_106,Sercomm,"370,632 followers","1,001-5,000 employees","Advertising Services 1,001-5,000 employees 1,342 on LinkedIn",Advertising Services 
+106,cp_107,Schbang,"129,882 followers","5,001-10,000 employees","Computers and Electronics Manufacturing 5,001-10,000 employees 3,149 on LinkedIn",Computers and Electronics Manufacturing 
+107,cp_108,Capgemini,"3,671 followers",2-10 employees,Staffing and Recruiting 2-10 employees 4 on LinkedIn,Staffing and Recruiting 
+108,cp_109,DXFactor,"168,189 followers",51-200 employees,Government Relations Services 51-200 employees 522 on LinkedIn,Government Relations Services 
+109,cp_110,Cummins India,"1,219,854 followers","10,001+ employees","Advertising Services 10,001+ employees 14,414 on LinkedIn",Advertising Services 
+110,cp_111,Synchrony,"32,459,394 followers","10,001+ employees","Software Development 10,001+ employees 282,324 on LinkedIn",Software Development 
+111,cp_112,Microsoft,"7,188,688 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 313,519 on LinkedIn",IT Services and IT Consulting 
+112,cp_113,Novo Nordisk,"14,684,648 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 594,255 on LinkedIn",IT Services and IT Consulting 
+113,cp_114,Tech Mahindra,"95,120 followers","10,001+ employees","Outsourcing and Offshoring Consulting 10,001+ employees 14,214 on LinkedIn",Outsourcing and Offshoring Consulting 
+114,cp_115,Godrej & Boyce Mfg. Co. Ltd.,"3,754,482 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 101,571 on LinkedIn",IT Services and IT Consulting 
+115,cp_116,Great Learning,"37,947 followers",51-200 employees,IT Services and IT Consulting 51-200 employees 84 on LinkedIn,IT Services and IT Consulting 
+116,cp_117,Chakr Innovation,"1,280,288 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 27,749 on LinkedIn",IT Services and IT Consulting 
+117,cp_118,Unicommerce,"1,144,944 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 18,096 on LinkedIn",IT Services and IT Consulting 
+118,cp_119,Meril,"320,599 followers","10,001+ employees","Public Safety 10,001+ employees 14,247 on LinkedIn",Public Safety 
+119,cp_120,Havas Media Network,"563,790 followers","10,001+ employees","Financial Services 10,001+ employees 69,402 on LinkedIn",Financial Services 
+120,cp_121,EXL,"456,049 followers","5,001-10,000 employees","Semiconductor Manufacturing 5,001-10,000 employees 8,630 on LinkedIn",Semiconductor Manufacturing 
+121,cp_122,Milliman,"493,893 followers","5,001-10,000 employees","E-Learning Providers 5,001-10,000 employees 12,327 on LinkedIn",E-Learning Providers 
+122,cp_123,EY,"4,223,885 followers","10,001+ employees","Financial Services 10,001+ employees 194,455 on LinkedIn",Financial Services 
+123,cp_124,TEKsystems,"462,144 followers","10,001+ employees","Engineering Services 10,001+ employees 13,814 on LinkedIn",Engineering Services 
+124,cp_125,Quick Heal,"703,860 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 26,819 on LinkedIn",IT Services and IT Consulting 
+125,cp_126,NA,"2,085,310 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 49,365 on LinkedIn",IT Services and IT Consulting 
+126,cp_127,3M,"33,747 followers","1,001-5,000 employees","E-Learning Providers 1,001-5,000 employees 838 on LinkedIn",E-Learning Providers 
+127,cp_128,Unacademy,"14,684,671 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 594,255 on LinkedIn",IT Services and IT Consulting 
+128,cp_129,Lockton,"14,684,673 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 594,255 on LinkedIn",IT Services and IT Consulting 
+129,cp_130,Teach For India,"8,561,108 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 320,829 on LinkedIn",IT Services and IT Consulting 
+130,cp_131,Shell,"155,193 followers","1,001-5,000 employees","Staffing and Recruiting 1,001-5,000 employees 2,747 on LinkedIn",Staffing and Recruiting 
+131,cp_132,GE Vernova,"627,482 followers","10,001+ employees","Banking 10,001+ employees 49,689 on LinkedIn",Banking 
+132,cp_133,Airtel Digital,"78,839 followers","1,001-5,000 employees","Business Consulting and Services 1,001-5,000 employees 1,915 on LinkedIn",Business Consulting and Services 
+133,cp_134,Ecolab Digital Center,"70,300 followers","501-1,000 employees","Maritime Transportation 501-1,000 employees 697 on LinkedIn",Maritime Transportation 
+134,cp_135,Infor,"340,260 followers","1,001-5,000 employees","Retail 1,001-5,000 employees 3,597 on LinkedIn",Retail 
+135,cp_136,Applicantz,"84,242 followers","501-1,000 employees","Online Audio and Video Media 501-1,000 employees 477 on LinkedIn",Online Audio and Video Media 
+136,cp_137,Ami Lifesciences Pvt. Ltd.,"872,934 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 11,609 on LinkedIn",IT Services and IT Consulting 
+137,cp_138,Urban Company,"1,280,294 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 27,749 on LinkedIn",IT Services and IT Consulting 
+138,cp_139,Advarra,"7,188,700 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 313,519 on LinkedIn",IT Services and IT Consulting 
+139,cp_140,Housr,"1,305,663 followers","10,001+ employees","Telecommunications 10,001+ employees 87,123 on LinkedIn",Telecommunications 
+140,cp_141,PTC,"7,952 followers","10,001+ employees","Wholesale Building Materials 10,001+ employees 11 on LinkedIn",Wholesale Building Materials 
+141,cp_142,HCLTech,"3,754,487 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 101,571 on LinkedIn",IT Services and IT Consulting 
+142,cp_143,Goldman Sachs,"352,586 followers","1,001-5,000 employees","Technology, Information and Internet 1,001-5,000 employees 887 on LinkedIn","Technology, Information and Internet "
+143,cp_144,EMotorad,"2,478,135 followers","10,001+ employees","Retail 10,001+ employees 54,092 on LinkedIn",Retail 
+144,cp_145,MRI Software,"2,199 followers",2-10 employees,Staffing and Recruiting 2-10 employees 3 on LinkedIn,Staffing and Recruiting 
+145,cp_146,Intel Corporation,"1,794,507 followers","10,001+ employees","Financial Services 10,001+ employees 25,441 on LinkedIn",Financial Services 
+146,cp_147,Truelancer.com,"2,071,997 followers","10,001+ employees","Business Consulting and Services 10,001+ employees 28,712 on LinkedIn",Business Consulting and Services 
+147,cp_148,KnowledgeWorks Global Ltd.,"1,280,295 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 27,749 on LinkedIn",IT Services and IT Consulting 
+148,cp_149,WN Infotech,"14,684,683 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 594,255 on LinkedIn",IT Services and IT Consulting 
+149,cp_150,DataE2E Technologies,"62,165 followers","1,001-5,000 employees","IT Services and IT Consulting 1,001-5,000 employees 111 on LinkedIn",IT Services and IT Consulting 
+150,cp_151,Embee Software Pvt. Ltd.,"3,864 followers",11-50 employees,IT Services and IT Consulting 11-50 employees 22 on LinkedIn,IT Services and IT Consulting 
+151,cp_152,slice,"53,027 followers","5,001-10,000 employees","Computer Networking 5,001-10,000 employees 1,471 on LinkedIn",Computer Networking 
+152,cp_153,ZARA SA,"14,684,685 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 594,255 on LinkedIn",IT Services and IT Consulting 
+153,cp_154,SLB,"563,793 followers","10,001+ employees","Financial Services 10,001+ employees 69,402 on LinkedIn",Financial Services 
+154,cp_155,IKEA,"269,082 followers","1,001-5,000 employees","Advertising Services 1,001-5,000 employees 1,298 on LinkedIn",Advertising Services 
+155,cp_156,Gestamp,"8,621,624 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 243,896 on LinkedIn",IT Services and IT Consulting 
+156,cp_157,PeopleLogic,"6,556,450 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 300,480 on LinkedIn",IT Services and IT Consulting 
+157,cp_158,Thomson Reuters,"22,462 followers",51-200 employees,IT Services and IT Consulting 51-200 employees 95 on LinkedIn,IT Services and IT Consulting 
+158,cp_159,Ford Motor Solutions,"190,434 followers","10,001+ employees","Motor Vehicle Manufacturing 10,001+ employees 5,861 on LinkedIn",Motor Vehicle Manufacturing 
+159,cp_160,TELUS International AI Data Solutions,"8,561,125 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 320,829 on LinkedIn",IT Services and IT Consulting 
+160,cp_161,HP,"137,250 followers","10,001+ employees","Financial Services 10,001+ employees 13,475 on LinkedIn",Financial Services 
+161,cp_162,Airtel Payments Bank,"1,288,253 followers","10,001+ employees","Airlines and Aviation 10,001+ employees 72,306 on LinkedIn",Airlines and Aviation 
+162,cp_163,Infosys Finacle,"14,684,694 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 594,255 on LinkedIn",IT Services and IT Consulting 
+163,cp_164,SMC Squared India,"22,080,183 followers","10,001+ employees","Software Development 10,001+ employees 226,686 on LinkedIn",Software Development 
+164,cp_165,ManipalCigna Health Insurance Company Ltd.,"1,844,034 followers","10,001+ employees","Pharmaceutical Manufacturing 10,001+ employees 55,458 on LinkedIn",Pharmaceutical Manufacturing 
+165,cp_166,Unisys,"352,587 followers","1,001-5,000 employees","Technology, Information and Internet 1,001-5,000 employees 887 on LinkedIn","Technology, Information and Internet "
+166,cp_167,Syngene International Limited,"5,686,965 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 166,264 on LinkedIn",IT Services and IT Consulting 
+167,cp_168,Volvo Group,"14,684,698 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 594,255 on LinkedIn",IT Services and IT Consulting 
+168,cp_169,GEP Worldwide,"528,179 followers","10,001+ employees","Manufacturing 10,001+ employees 17,743 on LinkedIn",Manufacturing 
+169,cp_170,Premier International,"3,754,493 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 101,571 on LinkedIn",IT Services and IT Consulting 
+170,cp_171,SurveySparrow,"250,095 followers","1,001-5,000 employees","E-Learning Providers 1,001-5,000 employees 3,307 on LinkedIn",E-Learning Providers 
+171,cp_172,Blenheim Chalcot India,"352,587 followers","1,001-5,000 employees","Technology, Information and Internet 1,001-5,000 employees 887 on LinkedIn","Technology, Information and Internet "
+172,cp_173,OYO,"17,295 followers","501-1,000 employees","Environmental Services 501-1,000 employees 290 on LinkedIn",Environmental Services 
+173,cp_174,ROYALCHEMICALS,"2,478,138 followers","10,001+ employees","Retail 10,001+ employees 54,092 on LinkedIn",Retail 
+174,cp_175,JioSaavn,"176,470 followers",51-200 employees,"Technology, Information and Media 51-200 employees 791 on LinkedIn","Technology, Information and Media "
+175,cp_176,Isha Foundation,"59,162 followers",201-500 employees,IT Services and IT Consulting 201-500 employees 440 on LinkedIn,IT Services and IT Consulting 
+176,cp_177,Lepton Software,"14,684,709 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 594,255 on LinkedIn",IT Services and IT Consulting 
+177,cp_178,NICE,"8,561,142 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 320,829 on LinkedIn",IT Services and IT Consulting 
+178,cp_179,Hilti India,"340,263 followers","1,001-5,000 employees","Retail 1,001-5,000 employees 3,597 on LinkedIn",Retail 
+179,cp_180,Enphase Energy,"117,718 followers","1,001-5,000 employees","Medical Device 1,001-5,000 employees 3,578 on LinkedIn",Medical Device 
+180,cp_181,Curefit - house of cult,"377,217 followers","5,001-10,000 employees","Advertising Services 5,001-10,000 employees 6,687 on LinkedIn",Advertising Services 
+181,cp_182,Applied Materials,"845,366 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 33,048 on LinkedIn",IT Services and IT Consulting 
+182,cp_183,Atlas Copco Group,"101,141 followers",51-200 employees,Software Development 51-200 employees 121 on LinkedIn,Software Development 
+183,cp_184,Nayara Energy,"14,684,719 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 594,255 on LinkedIn",IT Services and IT Consulting 
+184,cp_185,Syngenta,"66,153 followers","1,001-5,000 employees","Business Consulting and Services 1,001-5,000 employees 4,105 on LinkedIn",Business Consulting and Services 
+185,cp_186,STEAG Energy Services (India) Pvt. Ltd,"8,679,317 followers","10,001+ employees","Professional Services 10,001+ employees 349,096 on LinkedIn",Professional Services 
+186,cp_187,Anblicks,"899,402 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 26,670 on LinkedIn",IT Services and IT Consulting 
+187,cp_188,Meine Kuche (I) Pvt. Ltd.,"14,684,724 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 594,255 on LinkedIn",IT Services and IT Consulting 
+188,cp_189,Intozi,"68,863 followers","1,001-5,000 employees","Software Development 1,001-5,000 employees 1,494 on LinkedIn",Software Development 
+189,cp_190,InfoVision Inc.,NA,NA,NA,NA
+190,cp_191,Firstsource,"2,144,368 followers","10,001+ employees","Industrial Machinery Manufacturing 10,001+ employees 72,643 on LinkedIn",Industrial Machinery Manufacturing 
+191,cp_192,Dun & Bradstreet Technology and Corporate Services India LLP,"3,754,501 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 101,571 on LinkedIn",IT Services and IT Consulting 
+192,cp_193,Mobileum,"966,937 followers","5,001-10,000 employees","E-Learning Providers 5,001-10,000 employees 8,357 on LinkedIn",E-Learning Providers 
+193,cp_194,Dover India,"14,684,728 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 594,255 on LinkedIn",IT Services and IT Consulting 
+194,cp_195,Expert Global Group,"265,054 followers","10,001+ employees","Insurance 10,001+ employees 10,786 on LinkedIn",Insurance 
+195,cp_196,Careerfit.ai,"192,831 followers",201-500 employees,"Non-profit Organizations 201-500 employees 2,129 on LinkedIn",Non-profit Organizations 
+196,cp_197,Restroworks,"1,794,522 followers","10,001+ employees","Financial Services 10,001+ employees 25,441 on LinkedIn",Financial Services 
+197,cp_198,PloPdo,"6,424,392 followers","10,001+ employees","Oil and Gas 10,001+ employees 134,346 on LinkedIn",Oil and Gas 
+198,cp_199,Tata Technologies,"2,101,550 followers","10,001+ employees","Electric Power Generation 10,001+ employees 47,184 on LinkedIn",Electric Power Generation 
+199,cp_200,Advantmed India LLP,"14,684,736 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 594,255 on LinkedIn",IT Services and IT Consulting 
+200,cp_201,Kotak Mahindra Bank,"249,265 followers","1,001-5,000 employees","Internet Publishing 1,001-5,000 employees 2,193 on LinkedIn",Internet Publishing 
+201,cp_202,Airtel Business,"57,186 followers",201-500 employees,IT Services and IT Consulting 201-500 employees 620 on LinkedIn,IT Services and IT Consulting 
+202,cp_203,Fint Solutions,"14,684,739 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 594,255 on LinkedIn",IT Services and IT Consulting 
+203,cp_204,Mirchi,"836,408 followers","10,001+ employees","Software Development 10,001+ employees 20,308 on LinkedIn",Software Development 
+204,cp_205,Ankyah Infinity Pvt. Ltd.,"3,754,506 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 101,571 on LinkedIn",IT Services and IT Consulting 
+205,cp_206,Boeing,"543,829 followers",201-500 employees,"Technology, Information and Internet 201-500 employees 199 on LinkedIn","Technology, Information and Internet "
+206,cp_207,Thiess,"513,265 followers","10,001+ employees","Financial Services 10,001+ employees 38,266 on LinkedIn",Financial Services 
+207,cp_208,Lennox India Technology Centre,"14,684,742 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 594,255 on LinkedIn",IT Services and IT Consulting 
+208,cp_209,NetApp,"32,759 followers","1,001-5,000 employees","Pharmaceutical Manufacturing 1,001-5,000 employees 474 on LinkedIn",Pharmaceutical Manufacturing 
+209,cp_210,Qrata,"254,369 followers","1,001-5,000 employees","Staffing and Recruiting 1,001-5,000 employees 1,066 on LinkedIn",Staffing and Recruiting 
+210,cp_211,Fractal,"8,621,669 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 243,896 on LinkedIn",IT Services and IT Consulting 
+211,cp_212,Flowserve Corporation,"381,933 followers","1,001-5,000 employees","Technology, Information and Internet 1,001-5,000 employees 5,991 on LinkedIn","Technology, Information and Internet "
+212,cp_213,Games24x7,"872,949 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 11,609 on LinkedIn",IT Services and IT Consulting 
+213,cp_214,Accenture in India,"37,840 followers","501-1,000 employees","Pharmaceutical Manufacturing 501-1,000 employees 1,431 on LinkedIn",Pharmaceutical Manufacturing 
+214,cp_215,Sanofi,"105,478 followers",51-200 employees,Hospitality 51-200 employees 250 on LinkedIn,Hospitality 
+215,cp_216,bytecitadel,"8,561,169 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 320,829 on LinkedIn",IT Services and IT Consulting 
+216,cp_217,Synechron,"1,844,044 followers","10,001+ employees","Pharmaceutical Manufacturing 10,001+ employees 55,458 on LinkedIn",Pharmaceutical Manufacturing 
+217,cp_218,Broadcom,"563,800 followers","10,001+ employees","Financial Services 10,001+ employees 69,402 on LinkedIn",Financial Services 
+218,cp_219,UBS,"330,306 followers","5,001-10,000 employees","Software Development 5,001-10,000 employees 7,819 on LinkedIn",Software Development 
+219,cp_220,Juniper Networks,"6,032,576 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 260,221 on LinkedIn",IT Services and IT Consulting 
+220,cp_221,Network18 Media & Investments Limited,"3,754,509 followers","10,001+ employees","IT Services and IT Consulting 10,001+ employees 101,571 on LinkedIn",IT Services and IT Consulting 
+221,cp_222,Wood Mackenzie,"184,263 followers","5,001-10,000 employees","Information Technology & Services 5,001-10,000 employees 5,169 on LinkedIn",Information Technology & Services 
+222,cp_223,Northern Trust,"1,004,163 followers","10,001+ employees","Outsourcing and Offshoring Consulting 10,001+ employees 42,278 on LinkedIn",Outsourcing and Offshoring Consulting 
+223,cp_224,UST,"4,239,015 followers","10,001+ employees","Financial Services 10,001+ employees 55,993 on LinkedIn",Financial Services 
+224,cp_225,ITC Infotech,"54,465 followers",201-500 employees,Motor Vehicle Manufacturing 201-500 employees 180 on LinkedIn,Motor Vehicle Manufacturing 
+225,cp_226,Rently,"5,346 followers",51-200 employees,Architecture and Planning 51-200 employees 180 on LinkedIn,Architecture and Planning 
+226,cp_227,Astrosoft Technologies,"3,766,734 followers","10,001+ employees","Business Consulting and Services 10,001+ employees 147,917 on LinkedIn",Business Consulting and Services 
+227,cp_228,AB InBev GCC India,"45,322 followers","1,001-5,000 employees","IT Services and IT Consulting 1,001-5,000 employees 1,983 on LinkedIn",IT Services and IT Consulting 
+228,cp_229,The Timken Company,"61,541 followers","1,001-5,000 employees","Software Development 1,001-5,000 employees 3,247 on LinkedIn",Software Development 
+229,cp_230,Siemens Gamesa,"3,521,902 followers","10,001+ employees","Semiconductor Manufacturing 10,001+ employees 123,987 on LinkedIn",Semiconductor Manufacturing 
+230,cp_231,DIAGEO India,"277,108 followers",201-500 employees,Staffing and Recruiting 201-500 employees 935 on LinkedIn,Staffing and Recruiting 
+231,cp_232,Jubilant Generics Limited,"17,412 followers","1,001-5,000 employees","Book and Periodical Publishing 1,001-5,000 employees 1,167 on LinkedIn",Book and Periodical Publishing 
+232,cp_233,Cyfuture,"1,812 followers",201-500 employees,Information Technology & Services 201-500 employees 4 on LinkedIn,Information Technology & Services 
+233,cp_234,Upstox,"6,223 followers",2-10 employees,IT Services and IT Consulting 2-10 employees 5 on LinkedIn,IT Services and IT Consulting 
+234,cp_235,Emerson,"37,947 followers",51-200 employees,IT Services and IT Consulting 51-200 employees 84 on LinkedIn,IT Services and IT Consulting 
+235,cp_236,Silicon Valley Bank,"137,253 followers","10,001+ employees","Financial Services 10,001+ employees 13,475 on LinkedIn",Financial Services 
