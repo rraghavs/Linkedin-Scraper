@@ -1,4 +1,4 @@
-# LinkedIn Job Analytics 
+# Job Analytics 
 
 ### Introduction
 
