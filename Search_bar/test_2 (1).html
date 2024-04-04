@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Search</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: #87CEFA;
+            border-radius: 10px;
+            box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 50px;
+        }
+        #skillInput {
+            width: calc(100% - 110px);
+            padding: 10px;
+            border: none;
+            border-radius: 25px;
+            margin-bottom: 20px;
+            background: linear-gradient(to right, #ff9999, #66b3ff);
+            color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+            outline: none;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        #skillInput:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.08);
+        }
+        #skillInput:focus {
+            transform: translateY(-1px);
+            box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+        }
+        #searchBtn {
+            width: 100px;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 25px 25px 25px 25px;
+            cursor: pointer;
+        }
+        #searchBtn:hover {
+            background-color: #0056b3;
+        }
+        
+        .results {
+            margin-top: 100px;
+            text-align: left;
+        }
+        .result-item {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .result-item:hover {
+            transform: translateY(-10px);
+        }
+        .result-item strong {
+            color: #007bff;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff9999, #66b3ff); /* Initial gradient */
+            animation: animateBackground 10s infinite alternate; /* Apply animation */
+        }
+
+        @keyframes animateBackground {
+            from {
+                background: linear-gradient(to right, #ff9999, #66b3ff); /* Start color */
+            }
+            to {
+                background: linear-gradient(to right, #66b3ff, #ff9999); /* End color */
+            }
+        }
+
+        .suggestions {
+            display: none;
+            position: absolute;
+            width: 50%;
+            max-height: 200px;
+            overflow-y: auto;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-top: none;
+			margin-top: -22px;
+            border-radius: 10px 10px 10px 10px;
+            z-index: 1000;
+			text-align: left;
+        }
+
+        .suggestion {
+            padding: 8px 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .suggestion:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Explore Jobs by Skills</h1>
+        <form id="searchForm">
+            <div class="search-container">
+                <input type="text" id="skillInput" placeholder="Enter skills (e.g., Python, Java, HTML)">
+                <div id="suggestions" class="suggestions"></div>
+            </div>
+            <button type="submit" id="searchBtn"><i class="fas fa-search"></i> Search</button>
+        </form>
+        <div class="results" id="searchResults">
+            <!-- Search results will be displayed here -->
+        </div>
+    </div>
+
+
+    <script>
+
+document.getElementById('searchForm').addEventListener('submit', function(event) {
+  event.preventDefault(); // Prevent form submission
+  var skillInput = document.getElementById('skillInput').value.trim();
+  if (skillInput !== '') {
+      fetchResults(skillInput);
+  }
+});
+
+function fetchResults(skillInput) {
+  var resultsContainer = document.getElementById('searchResults');
+  resultsContainer.innerHTML = '<p><i class="fas fa-spinner fa-spin"></i> Loading...</p>';
+
+  // AJAX request to Flask route '/livesearch'
+  fetch('/livesearch', {
+      method: 'POST',
+      headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+      },
+      body: 'text=' + encodeURIComponent(skillInput)
+  })
+  .then(response => response.json())
+  .then(data => {
+      resultsContainer.innerHTML = ''; // Clear previous results
+      var resultDiv = document.createElement('div');
+      resultDiv.classList.add('result-item');
+      resultDiv.innerHTML = `
+          <strong>Most Common Experience Level:</strong> ${data.most_common_experience_level}<br><br>
+          <strong>Most Common Industry:</strong> ${data.most_common_industry}<br><br>
+          <strong>Most Common Company Class:</strong> ${data.most_common_company_class}<br><br>
+          <strong>Number of Jobs Available:</strong> ${data.number_of_jobs}<br><br>
+      `;
+      resultsContainer.appendChild(resultDiv);
+  })
+  .catch(error => {
+      console.error('Error:', error);
+      resultsContainer.innerHTML = '<p>Error fetching results</p>';
+  });
+}
+
+// List of IT companies programming skills
+const programmingSkills = [
+  "Architecture","Economic Development","Product Management","Data Governance",
+    "Business-to-Business (B2B)","Land Acquisition","Environment", "CPI", "JavaScript",
+    "Business Development",  "Transact-SQL (T-SQL)",    "Oracle Analytics Cloud (OAC)",
+    "JDE CNC",    "Distributed Applications",    "Product Demonstration",    "Auditing",    "Commercial",
+    "Microsoft SQL Server",    "Data Analysis",    "SQL DBA",    "Java",    "SQL",    "Storage",    "Customer Satisfaction",
+    "Compromise",    "Self-Directed Learning",    "SAP Products",    "Public Cloud",    "Process Design",    "Business Valuation",
+    "InVision",    "Microsoft Excel",    "Investigation",    "Product Launch",    "Middleware",    "SQL Server Analysis Services (SSAS)",
+    "Network Operations Center (NOC)",    "Revenue Assurance",    "Technical Reviews",    "Python (Programming Language)",    "SQL Database Administration",
+    "Sales",    "Database Management System (DBMS)",    "Databases",    "PL/SQL",    "Anti-Money Laundering",    "Core Java",    "SAP-SD",    "Presentations",
+    "Product Lines",    "Oracle Warehouse Builder",    "Accounting",    "Office 365",    "Quality Assurance",    "General Data Protection Regulation (GDPR)",
+    "Application Packaging",    "Procedural Programming",    "ServiceNow",    "Material Characterization",    "Performance Management",
+    "Backbase",    "Insurance",    "Attention to Detail",    "Project Communications",    "ITIL",    "Local Area Network (LAN)",    "Communication",
+    "Project Management",    "Statutory",    "Contact Centers",    "English",    "US Payroll",    "Oracle Database Administration",    "Sketch App",
+    "Request Tracker",    "Spyglass",    "MySQL",    "Microsoft PowerPoint",    "Relational Databases",    "Process Auditing",    "Salesforce.com",
+    "Customer Service",    "Microsoft Exchange",    "Test Engineering",    "Demand Management",    "Operations Management",    "Fund Administration",
+    "Engineering",    "Asset Management",    "Full-Stack Development",    "JD Edwards",    "Falcon",    "Back-End Web Development",    "REST APIs",    "Loan Syndications",    "Capital Expenditures",
+    "Maintenance Planning",    "App Marketing",    "Business Case Preparation",    "Object-Oriented Programming (OOP)",    "Lean Six Sigma",
+    "SAP Integration",    "Microsoft Azure",    "Supply Chain Management",    "Digital Copywriting",    "GE Proficy",    "Life Cycle Assessment",    "Requirement Specifications",    "Business Risk",
+    "Network Security",    "Internal Communications",    "Business Understanding",    "Analytics",    "CommVault",
+    "Power Electronics",    "Recruiting",    "Power Systems",    "Merchandising",    "Health and Safety Executive (HSE)",    "NoSQL",
+    "SAP Basis",    "Contract Management",    "User Stories",    "Computer-Aided Design (CAD)",    "Post Campaign Analysis",    "Microsoft Power BI",    "Problem Solving",    "Resolving Issues",
+    "SAP Materials Management (SAP MM)",    "C++",    "Product Strategy",    "DevOps",    "SAP Successfactors",    "Commerce",    "End-to-End Project Management",
+    "Creative Problem Solving",    "Relays",    "VMware",    "Unix",    "Linux",    "Financial Accounting",    "Procurement",    "Cell Biology",   "Writing",    "Selenium",    "Office Administration",    "Debugging Code",
+    "Banking",    "Software Updates",    "Leadership",    "Windows Desktop Administration",    "General Administration",    "Infrastructure",    "Oracle SCM",    "Azure Data Factory",    "Very-Large-Scale Integration (VLSI)",
+    "Linux System Administration",    "Source to Pay",    "Front-End Development",    "Payment Card Industry Data Security Standard (PCI DSS)",    "Windows Administration",    "Financial Reporting",
+    "Technical Files",    "Business Ethics",    "Key Account Management",    "Microsoft Office",    "Web Application Development",
+    "Account Planning",    "Airlines",    "SAP APO",    "Storage Architecture",    "ABAP",    "Hadoop",    "System Requirements",    "Cascading Style Sheets (CSS)",    "Goods and Services Tax (GST)",    "Programme Governance",    "Internal Audits",
+    "Trade Compliance",    "Analytical Skills",    "Data Engineering",    "Vulnerability Assessment and Penetration Testing (VAPT)",    "Bank Reconciliation",
+    "Office Operations",    "ArcGIS Server",    "Software Sales",    "Electromechanics",    "Sales Trainings",    "Statutory Accounting Principles (SAP)",    "Networking",    "Microservices",    "Security",    "Pesticide",
+    "Power System Studies",    "Database Administration",    "RTL Design",    "Signaling System 7 (SS7)",    "Ansys Mechanical",
+    "Salesforce.com Administration",    "Google Sheets",    "Node.js",    "Fine Tuning",    "Licensing",    "Cisco Meraki",    "Content Marketing",
+    "Content Management Systems (CMS)",    "Radio",    "Technical Requirements",    "Supplier Relationship Management",    "Mining",    "Internal & External Clients",
+    "Wireframing",    "Technical Support",    "Trade Sales",    "Search Engine Optimization (SEO)",    "Digital Marketing Channels",
+    "Extract",    "New Product Implementations",    "Systems Engineering",
+    "Process Modeling",    "Product Quality",    "Active Directory",    "Data Science",    "Adobe Premiere Pro",
+    "Account Management",    "Radio Frequency (RF)",    "Client Presentation",    "Site Management",    "Salesforce Lightning",    "Amazon Redshift",
+    "Hypermesh",    "Site Reliability Engineering",    "Public Relations",    "Vendor Management",
+    "Interpersonal Communication",    "Regulatory Guidelines",    "Control Testing"
+];
+
+const skillInput = document.getElementById('skillInput');
+const suggestionsContainer = document.getElementById('suggestions');
+
+// Function to display suggestions as a dropdown table
+function displaySuggestions(suggestions) {
+  const html = suggestions.map(suggestion => `<div class="suggestion">${suggestion}</div>`).join('');
+  suggestionsContainer.innerHTML = html;
+  suggestionsContainer.style.display = suggestions.length ? 'block' : 'none'; // Show suggestions if there are any
+}
+
+// Event listener for input in the search bar
+skillInput.addEventListener('input', function () {
+  const inputValue = this.value.trim();
+  if (inputValue === '') {
+      suggestionsContainer.innerHTML = ''; // Clear suggestions if input is empty
+      suggestionsContainer.style.display = 'none'; // Hide suggestions container
+  } else {
+      const suggestions = programmingSkills.filter(skill =>
+          skill.toLowerCase().startsWith(inputValue.toLowerCase())
+      );
+      displaySuggestions(suggestions);
+  }
+});
+
+// Event listener to handle clicks on suggestions
+suggestionsContainer.addEventListener('click', function (event) {
+  if (event.target.classList.contains('suggestion')) {
+      skillInput.value = event.target.textContent;
+      suggestionsContainer.innerHTML = ''; // Clear suggestions after selection
+      suggestionsContainer.style.display = 'none'; // Hide suggestions container
+  }
+});
+
+    </script>
+</body>
+</html>
