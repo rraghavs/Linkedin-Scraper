@@ -46,6 +46,11 @@ Generating aggregations and insights for creating an interactive dashboard.
 ### Scraping 
 The project involves scraping data from LinkedIn job collections using Python libraries such as Selenium. By accessing the LinkedIn job collections URL, the project extracts relevant job details including job ID, company information, job location, job designation, company industry, number of employees, number of LinkedIn followers, job involvement, job level, and total number of applicants.
 
+## Dashboard
+
+![image](https://github.com/rraghavs/Linkedin-Scraper/assets/156883419/19e3b6c4-a524-4cdf-8810-120ae829c500)
+
+
 
 ## Phase 2: 
 
@@ -69,6 +74,12 @@ The project involves scraping data from LinkedIn job collections using Python li
   3.Most common company class where the skill(s) are required.
   
   4.Number of available jobs for the skill(s).
+
+## Search Bar
+
+![image](https://github.com/rraghavs/Linkedin-Scraper/assets/156883419/0b5b0817-bae0-4b86-8a90-528a749640a7)
+
+
 
 ## Final Outcome
 
