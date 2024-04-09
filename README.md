@@ -1,7 +1,7 @@
 # Job Analytics 
 <img src="https://github.com/BIB-HACKER/linkedin-Job_Analytics/blob/main/logo.jpeg" 
-     width="500" 
-     height="450" />
+     width="450" 
+     height="420" />
      
 ### Introduction
 
